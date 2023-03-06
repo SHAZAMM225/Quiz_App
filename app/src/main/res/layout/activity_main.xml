@@ -16,7 +16,7 @@
         android:layout_marginStart="150dp"
         android:layout_marginEnd="100dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/quizz"
+        android:src="@drawable/quii"
 
 
         ></ImageView>
@@ -48,7 +48,7 @@
        >
 
        <LinearLayout
-           android:id="@+id/php_ln"
+           android:id="@+id/swift_ln"
            android:layout_width="0dp"
            android:layout_height="wrap_content"
            android:layout_marginEnd="5dp"
@@ -64,7 +64,7 @@
            <ImageView
                android:layout_width="80dp"
                android:layout_height="80dp"
-               android:src="@drawable/php"
+               android:src="@drawable/swift"
                ></ImageView>
 
            <TextView
@@ -72,7 +72,7 @@
                android:layout_height="wrap_content"
                android:layout_marginTop="8dp"
                android:textStyle="bold"
-               android:text="PHP"></TextView>
+               android:text="Swift"></TextView>
 
 
 
@@ -130,7 +130,7 @@ android:id="@+id/ln2"
         >
 
         <LinearLayout
-            android:id="@+id/html_ln"
+            android:id="@+id/flutter_ln"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
@@ -147,7 +147,7 @@ android:id="@+id/ln2"
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/html"
+                android:src="@drawable/fluuter"
                 ></ImageView>
 
             <TextView
@@ -155,7 +155,7 @@ android:id="@+id/ln2"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:textStyle="bold"
-                android:text="HTML"></TextView>
+                android:text="Flutter"></TextView>
 
 
 
@@ -164,7 +164,7 @@ android:id="@+id/ln2"
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/andro_ln"
+            android:id="@+id/react_ln"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -181,7 +181,7 @@ android:id="@+id/ln2"
             <ImageView
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/android"
+                android:src="@drawable/reacct"
                 ></ImageView>
 
             <TextView
@@ -190,7 +190,7 @@ android:id="@+id/ln2"
                 android:layout_marginTop="8dp"
                 android:textStyle="bold"
 
-                android:text="Android"></TextView>
+                android:text="React Native"></TextView>
 
 
 
