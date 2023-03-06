@@ -11,26 +11,40 @@ public class QuestionsBank {
 
 
         questionListLists.add(new QuestionList("What is the size of variable int ?",
-                "16 bit","8 bit","32 bit ","64 bit","32 bit",""));
+                "16 bit","8 bit","32 bit","64 bit","32 bit",""));
 
 
         questionListLists.add(new QuestionList("whats of the  following is the default value of an instance variable?",
                 "null","0","not assigned",
-                "Depends upon the type of variable","Depends upon the type of variable",""));
+                "Depends upon the type of variable",
+                "Depends upon the type of variable",""));
 
         questionListLists.add(new QuestionList("what is the default values of Boolean va variable ?",
-                "true ","0","1","flase ","false",""));
+                "true ","0","1",
+                "false",
+                "false",""));
 
 
-        questionListLists.add(new QuestionList("which is a reserved word in the java programming langauge ?",
-                "refrence","array","native","if","native",""));
+        questionListLists.add(new QuestionList("What is the difference between an object and a class in Java ?",
+                "An object is an instance of a class, while a class is a blueprint for creating objects.",
+                "An object and a class are the same thing.",
+                "A class is an instance of an object, while an object is a blueprint for creating classes.",
+                "An object represents a variable, while a class represents a method.",
+                "An object is an instance of a class, while a class is a blueprint for creating objects.",""));
 
-        questionListLists.add(new QuestionList("whitch of the following is Not a keywords or resersev words in java ?",
-                "goto","while","then ","","",""));
+        questionListLists.add(new QuestionList("What is the difference between an interface and a class in Java?",
+                "An interface can have constructors, while a class cannot.",
+                "A class can have static methods, while an interface cannot.",
+                "A class can implement multiple interfaces, while a class can only inherit from one superclass.",
+                "An interface can have instance variables, while a class cannot.",
+                "A class can implement multiple interfaces, while a class can only inherit from one superclass.",""));
 
-        questionListLists.add(new QuestionList("which is the valid declarations within an interface definition ?",
-                "public double method()","public final double method()",
-                "static void method(double d1)","protected void method","public double method(double d1);",""));
+        questionListLists.add(new QuestionList("What is the purpose of the static keyword in Java?",
+                "To indicate that a variable or method belongs to a class rather than an instance of a class.",
+                "To indicate that a variable or method belongs to an instance of a class rather than the class itself.",
+                "To indicate that a variable or method is public.",
+                "To indicate that a variable or method is private.",
+                "To indicate that a variable or method belongs to a class rather than an instance of a class.",""));
 
 
         return questionListLists;
@@ -145,7 +159,7 @@ public class QuestionsBank {
 
 
         questionListLists.add(new QuestionList("What programming language is used to write React Native apps?",
-                "JavaScript ","Java","Dart ","Php","JavaScript",""));
+                "JavaScript","Java","Dart ","Php","JavaScript",""));
 
 
         questionListLists.add(new QuestionList("What is the purpose of the useState() hook in React Native?",
